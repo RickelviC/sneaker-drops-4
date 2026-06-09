@@ -1,4 +1,4 @@
-package com.pluralsight.sneakersdrops.service;
+package com.pluralsight.sneakerdrops.service;
 
 import org.springframework.stereotype.Service;
 

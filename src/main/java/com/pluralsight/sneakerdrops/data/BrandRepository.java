@@ -1,6 +1,6 @@
-package com.pluralsight.sneakersdrops.data;
+package com.pluralsight.sneakerdrops.data;
 
-import com.pluralsight.sneakersdrops.models.Brand;
+import com.pluralsight.sneakerdrops.models.Brand;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BrandRepository extends JpaRepository<Brand, Long> {

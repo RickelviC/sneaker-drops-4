@@ -1,13 +1,12 @@
-package com.pluralsight.sneakersdrops;
+package com.pluralsight.sneakerdrops;
 
 
-import com.pluralsight.sneakersdrops.data.BrandRepository;
-import com.pluralsight.sneakersdrops.models.Brand;
-import com.pluralsight.sneakersdrops.service.DropService;
+import com.pluralsight.sneakerdrops.data.BrandRepository;
+import com.pluralsight.sneakerdrops.models.Brand;
+import com.pluralsight.sneakerdrops.service.DropService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 @Component
 public class StartupRunner implements CommandLineRunner {
     private final BrandRepository brandRepository;
